@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+button {
+    border: none;
+}
+input{
+    outline: none;
+}
+ nav {
+    padding: 15px 0;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+ }
+header{
+    background-color: aqua;
+    box-sizing: border-box;
+    display: flex;  
+    width: 100% ;
+    position: fixed;
+    top: 0; 
+}
+.logo {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+ .links{
+    margin-left: 589px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+ }
+ .link {
+    color: white;
+    font-weight: 550;
+    font-size: 18px;
+ }
+ main {
+    margin-top: 58.8px;
+ }
+ .Mentalist{
+    padding-top: 30px;
+    height: 100vh;
+    background-image: url(./images/mentalist.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .Breaking {
+    padding-top: 30px;
+    height: 100vh;
+    background-image: url(./images/breakingbad.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+ }
+ .Dexter{
+    padding-top: 30px;
+    height: 100vh;
+    background-image: url(./images/dexter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+ }
+ .house{
+    padding-top: 30px;
+    height: 100vh;
+    background-image: url(./images/house.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+ }
+ .desc {
+    margin-top: 380px;
+    margin-left: 50px;
+    width: 500px;
+    background-color: rgb(255, 255,255,0.3) ;
+    padding: 10px 10px;
+    border-radius: 12px;
+ }
+  .desc1 {
+    margin-left: 50px;
+    width: 500px;
+    background-color: rgb(255, 255,255,0.3) ;
+    padding: 10px 10px;
+    border-radius: 12px;
+ }
+  .desc2 {
+    margin-top: 410px;
+    margin-left: 1000px;
+    width: 500px;
+    background-color: rgb(255, 255,255,0.3) ;
+    padding: 10px 10px;
+    border-radius: 12px;
+ }
+  .desc3 {
+    margin-top: 20px;
+    margin-left: 1000px;
+    width: 500px;
+    background-color: rgb(255, 255,255,0.3) ;
+    padding: 10px 10px;
+    border-radius: 12px;
+ }
+ .desc h2 {
+    color: rgb(48, 42, 167);
+    margin-bottom: 10px;
+ }
+ .desc1 h2 {
+    color: rgba(0, 90, 16, 0.723);
+    margin-bottom: 10px;
+ }
+  .desc2 h2 {
+    color: red;
+    margin-bottom: 10px;
+ }
+  .desc3 h2 {
+    color: rgb(3, 1, 1);
+    margin-bottom: 10px;
+ }
